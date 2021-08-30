@@ -1,0 +1,114 @@
+.conteudo {
+    .opcoes-cores {
+        height: 10vh;
+        width: 100%;
+        background: cornflowerblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        font-family: "Source Sans Pro", sans-serif;
+        text-transform: uppercase;
+        font-size: 1rem;
+
+        .opcao {
+            margin: 8px;
+        }
+
+        .radio-opcao {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+        }
+    }
+}
+
+.conteudo-sabre {
+    width: 300px;
+    height: 18vh;
+
+    margin: auto;
+    padding-top: 18vh;
+
+    .base-luz-sabre {
+        width: 10px;
+        height: 40vh;
+        margin: auto;
+    }
+
+    .luz-sabre {
+        width: 10px;
+        height: 0%;
+        position: absolute;
+        bottom: 207px;
+        border-radius:  30px 30px 0 0;
+        transition:  0.5s height;
+    }
+
+    .verde {
+        background: rgba(0, 255, 98, 0.918);
+        box-shadow: 0 0 15px 15px #11fbad7c;
+        height: 50%;
+    }
+    .azul {
+        background: rgb(55, 0, 255);
+          box-shadow: 0 0 15px 15px #2811fb7a;
+        height: 50% !important;
+    }
+
+    .amarelo {
+        background: rgb(208, 255, 0);
+        box-shadow: 0 0 15px 15px #d0fb117a;
+        height: 50% !important;
+      }
+
+    .roxo {
+        background: rgb(174, 0, 255);
+        box-shadow: 0 0 15px 15px #c411fb73;
+        height: 50% !important;
+     }
+
+    .vermelho {
+        background: rgba(255, 0, 0, 0.972);
+        box-shadow: 0 0 15px 15px #fb111177;
+        height: 50% !important;
+       }
+
+    .preto {
+        background: black;
+         box-shadow: 0 0 15px 15px rgba(255, 255, 255, 0.63);
+        height: 50% !important;
+    }
+
+
+    .base-sabre {
+        height: 100px;
+        width: 10px;
+        background: red;
+        margin: auto;
+        cursor: pointer;
+        border-radius: 0 0 7px 7px;
+        background-image: linear-gradient(
+            silver 0 10px,
+            #df9c20 0 14px,
+            silver 0 15px,
+            black 0 20px,
+            silver 0 22px,
+            black 0 25px,
+            silver 0 27px,
+            black 0 30px,
+            silver 0 32px,
+            black 0 35px,
+            silver 0 37px,
+            black 0 40px,
+            silver 0 42px,
+            black 0 45px,
+            silver 0 47px,
+            black 0 50px,
+            silver 0 60px,
+            #df9c20 60px 80px,
+            silver 0 100%
+        );
+    }
+}
